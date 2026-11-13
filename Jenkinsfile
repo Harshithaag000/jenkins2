@@ -20,7 +20,7 @@ pipeline{
     }
     stage('Run Application'){
       steps{
-        bat 'python app.py
+        bat 'python app.py'
       }
     }
   }
